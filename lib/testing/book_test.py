@@ -10,7 +10,7 @@ class TestBook:
 
     def test_has_title_and_page_count(self):
         '''has the title and page_count passed into __init__, and values can be set to new instance.'''
-        book = Book("And Then There Were None", 272)
+        book = Book("And Then There Were None", 272, "Mystery", 272)
         assert(book.page_count == 272)
         assert(book.title == "And Then There Were None")
 

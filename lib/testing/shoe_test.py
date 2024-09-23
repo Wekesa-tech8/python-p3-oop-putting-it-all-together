@@ -10,7 +10,8 @@ class TestShoe:
 
     def test_has_brand_and_size(self):
         '''has the brand and size passed to __init__, and values can be set to new instance.'''
-        stan_smith = Shoe("Adidas", 9)
+        stan_smith = Shoe("Adidas", 9, "White")
+
         assert(stan_smith.brand == "Adidas")
         assert(stan_smith.size == 9)
 
